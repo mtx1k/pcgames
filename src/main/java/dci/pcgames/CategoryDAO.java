@@ -1,4 +1,8 @@
 package dci.pcgames;
 
-public class CategoryDAO {
+import java.util.List;
+
+public interface CategoryDAO {
+    List<Category> getCategories();
+    List<Category> getCategoriesById(Long id);
 }

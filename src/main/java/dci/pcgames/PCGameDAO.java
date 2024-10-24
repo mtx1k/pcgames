@@ -1,5 +1,7 @@
 package dci.pcgames;
 
-public class PCGameDAO {
+import java.util.List;
 
+public interface PCGameDAO {
+    List<PCGame> getGames();
 }

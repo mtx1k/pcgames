@@ -1,7 +1,7 @@
 package dci.pcgames;
 
 public record Category(
-        long id,
+        Long id,
         String name
 ) {
 }
